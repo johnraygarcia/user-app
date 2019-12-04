@@ -1,0 +1,17 @@
+{
+    "name": "john/user",
+    "authors": [
+        {
+            "name": "john",
+            "email": "garcia.johnray25@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-kernel": "^5.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "app": ""
+        }
+    }
+}

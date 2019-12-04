@@ -1,0 +1,17 @@
+@media (min-width: 99px){
+	body{
+		padding-top: 6em;
+	}
+}
+
+.jumbotron{
+	text-align: center;
+	margin-top: -25px;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+}
+
+.lead span{
+	color: orange;
+	font-weight: bold;
+}
