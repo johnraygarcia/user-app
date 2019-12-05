@@ -10,7 +10,7 @@ require_once "./partials/template.php";
 
   <div class="container">
   <?php
-    $loginError = $_SESSION['login_error'] ?? null;
+    $loginError = isset($_SESSION['login_error']) ? $_SESSION['login_error'] : null;
     if ($loginError) :
   ?>
     <div class="alert alert-danger" role="alert">

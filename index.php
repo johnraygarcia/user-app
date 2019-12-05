@@ -25,5 +25,5 @@ if ($request->getLoggedInID() && strpos($page, "logout") === false) {
         $c = $page;
     }
     
-    include $c;
+    require_once( $c );
 }

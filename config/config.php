@@ -1,7 +1,7 @@
 <?php
 define('DB_DSN', 'sqlsrv:Server=192.168.1.3;Database=user-db');
-define('DB_USER', '');
-define('DB_PASSWORD', '');
+define('DB_USER', 'johnsql');
+define('DB_PASSWORD', '8London*');
 
 $routes = [
     "login" => "views/login.php",

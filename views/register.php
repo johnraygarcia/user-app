@@ -10,7 +10,7 @@ require_once "./partials/template.php";
 
   <div class="container">
   <?php
-    $error_password_not_match = $_SESSION['error_password_not_match'] ?? null;
+    $error_password_not_match = isset($_SESSION['error_password_not_match']) ? $_SESSION['error_password_not_match'] : null;
     if ($error_password_not_match) :
   ?>
     <div class="alert alert-danger" role="alert">
